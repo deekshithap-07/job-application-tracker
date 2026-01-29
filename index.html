@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Application Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>💼 Job Application Tracker</h1>
+
+    <!-- Stats -->
+     
+    <div class="stats">
+      <div class="stat-card">Applied: <span id="appliedCount">0</span></div>
+      <div class="stat-card">Interview: <span id="interviewCount">0</span></div>
+      <div class="stat-card">Rejected: <span id="rejectedCount">0</span></div>
+    </div>
+    <!-- Progress -->
+<div class="card">
+  <h2>Overall Progress</h2>
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+  <p id="progressText">0% Completed</p>
+</div>
+
+
+    <!-- Add Application -->
+    <div class="card">
+      <h2>Add Application</h2>
+      <input type="text" id="company" placeholder="Company Name">
+      <input type="text" id="role" placeholder="Job Role">
+      <select id="status">
+        <option value="Applied">Applied</option>
+        <option value="Interview">Interview</option>
+        <option value="Rejected">Rejected</option>
+      </select>
+      <button onclick="addApplication()">Add</button>
+    </div>
+
+    <!-- Application List -->
+    <div class="card">
+      <h2>Applications</h2>
+      <ul id="applicationList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
