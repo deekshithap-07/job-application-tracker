@@ -20,7 +20,7 @@ A simple and responsive frontend web application that helps users track job appl
 This project was built to practice frontend fundamentals such as DOM manipulation, state management, and data persistence, while solving a real-world problem faced by students and job seekers.
 
 ## 🌐 Live Demo
-https://YOUR_USERNAME.github.io/job-application-tracker/
+https://deekshithap-07.github.io/job-application-tracker/
 
 ## 📂 How It Works
 - Users add job applications through a form
@@ -34,10 +34,6 @@ https://YOUR_USERNAME.github.io/job-application-tracker/
 - Using localStorage for persistent data
 - Building and deploying projects using GitHub Pages
 
-## 📸 Screenshots
-(Add screenshots here if needed)
-
----
 
 ### 👩‍💻 Author
-Your Name
+Deekshitha P
