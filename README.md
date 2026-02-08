@@ -19,9 +19,6 @@ A simple and responsive frontend web application that helps users track job appl
 ## 📌 Project Purpose
 This project was built to practice frontend fundamentals such as DOM manipulation, state management, and data persistence, while solving a real-world problem faced by students and job seekers.
 
-## 🌐 Live Demo
-https://deekshithap-07.github.io/job-application-tracker/
-
 ## 📂 How It Works
 - Users add job applications through a form
 - Application data is stored in localStorage
